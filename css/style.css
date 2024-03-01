@@ -37,6 +37,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Paprika');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url(https://db.onlinewebfonts.com/c/a78cfad3beb089a6ce86d4e280fa270b?family=Calibri);
+
 
 
 /*------------------------------------------------------------------
@@ -57,17 +59,19 @@
     SKELETON
 -------------------------------------------------------------------*/
 @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/nautilus-webfont.woff2') format('woff2'),
-         url('../fonts/nautilus-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Calibri";
+    src: url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.eot");
+    src: url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a78cfad3beb089a6ce86d4e280fa270b.svg#Calibri")format("svg");
 }
 
 body{
 	color:#686868;
-	font-size:14px;
-	font-family: 'Roboto', sans-serif;
+	font-size:17px;
+	font-family: "Calibri";
 	line-height:1.80857;
 }
 
@@ -81,6 +85,7 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 
 h1,
 h2,
