@@ -322,7 +322,7 @@ html, body{ height: 100%; }
 	-webkit-transition: color 0.4s;
     transition: color 0.4s;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .main-menu nav li a::after,  .main-menu nav li a::before{
@@ -398,11 +398,12 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(../images/banner1.jpg) no-repeat center top;
+	background:url(../images/bannerfinal.jpg) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
-	height:100vh;
+	height:100%;
 	min-height:100%;
+    width: 100%;
 }
 
 .banner .container, .banner .banner-static, .banner .col-lg-12 {
@@ -412,8 +413,8 @@ html, body{ height: 100%; }
     display: table;
     height: 100%;
     width: 100%;
-    margin: 0 auto;
-    text-align: center;
+    margin: auto;
+    text-align: left;
 }
 .banner-cell {
     display: table-cell;
@@ -425,7 +426,7 @@ html, body{ height: 100%; }
     letter-spacing: 2.7px;
     position: relative;
     display: inline-block;
-	font-size: 74px;
+	font-size: 65px;
     line-height: 100px;
 	color:#fff;
 	padding-bottom: 0px;
@@ -924,6 +925,14 @@ html, body{ height: 100%; }
 .tab-menu .is-active p{
 	color:#fff;
 }
+
+.accredation-main{
+	background:url(../images/accreditation_bg2.png) no-repeat center;
+	background-attachment:fixed;
+	background-size:cover;
+	position:relative;
+}
+
 
 /*------------------------------------------------------------------
     TEAM AREA
@@ -1675,9 +1684,9 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     padding: 4px;
 }
 .footer-box {
-	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
-	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/banner.jpg);
+	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/banner.jpg);
+	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/banner.jpg);
 	background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
 	}
 .socials-box li {
