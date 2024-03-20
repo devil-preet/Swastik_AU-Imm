@@ -313,7 +313,7 @@ html, body{ height: 100%; }
 }
 .main-menu nav li a{
 	padding: 43px 0px 15px;
-	margin: 0 14px;
+	margin: 0 10px;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -321,8 +321,8 @@ html, body{ height: 100%; }
 	position:relative;
 	-webkit-transition: color 0.4s;
     transition: color 0.4s;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .main-menu nav li a::after,  .main-menu nav li a::before{
