@@ -74,7 +74,18 @@ body{
 	font-family: "Calibri";
 	line-height:1.80857;
 }
-
+/* Style for ordered lists */
+ol {
+    list-style-type: decimal; /* Use numbers as serial order */
+    margin-left: 20px; /* Add left margin for indentation */
+  }
+  
+  /* Style for unordered lists */
+  ul {
+    list-style-type: disc; /* Use bullets */
+    margin-left: 20px; /* Add left margin for indentation */
+  }
+  
 a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -247,6 +258,22 @@ html, body{ height: 100%; }
      background-position: center;
      margin: -100px 0 0 -100px;
  }
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
 
 
 /*------------------------------------------------------------------
