@@ -259,6 +259,29 @@ html, body{ height: 100%; }
      margin: -100px 0 0 -100px;
  }
 
+ #side-header {
+    position: fixed;
+    top: 70%;
+    right: 20px; /* Adjust the distance from the left side */
+    transform: translateY(-50%);
+    background-color: #cc5429b0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    max-height: calc(100% - 20px); /* Adjust to leave some space from top and bottom */
+    overflow-y: auto; /* Add scrollbar if content exceeds height */
+}
+
+#side-header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+#side-header li {
+    margin-bottom: 10px;
+}
+
  table {
     width: 100%;
     border-collapse: collapse;
@@ -273,6 +296,14 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.center-image {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+}
+
 
 
 
