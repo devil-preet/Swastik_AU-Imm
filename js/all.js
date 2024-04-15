@@ -138,6 +138,20 @@ function TyperSetup() {
   }
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  const fab = document.getElementById('fab');
+  const sideHeader = document.getElementById('side-header');
+
+  fab.addEventListener('click', function() {
+      sideHeader.classList.toggle('open');
+      // Toggle visibility of open and close icons
+      const openIcon = fab.querySelector('.open-icon');
+      const closeIcon = fab.querySelector('.close-icon');
+      openIcon.style.display = sideHeader.classList.contains('open') ? 'none' : 'inline-block';
+      closeIcon.style.display = sideHeader.classList.contains('open') ? 'inline-block' : 'none';
+  });
+});
+
 TyperSetup();
 
 

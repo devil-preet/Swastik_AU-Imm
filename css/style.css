@@ -263,6 +263,7 @@ html, body{ height: 100%; }
     position: fixed;
     top: 70%;
     right: 20px; /* Adjust the distance from the left side */
+    width: 300px;
     transform: translateY(-50%);
     background-color: #cc5429b0;
     border: 1px solid #ddd;
@@ -270,6 +271,12 @@ html, body{ height: 100%; }
     z-index: 1000; /* Ensure it stays on top of other content */
     max-height: calc(100% - 20px); /* Adjust to leave some space from top and bottom */
     overflow-y: auto; /* Add scrollbar if content exceeds height */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+    transform: translateY(100%); /* Initially hide the side header */
+}
+
+#side-header.open {
+    transform: translateY(-50%); /* Show the side header */
 }
 
 #side-header ul {
@@ -280,6 +287,34 @@ html, body{ height: 100%; }
 
 #side-header li {
     margin-bottom: 10px;
+}
+
+#fab {
+    position: fixed;
+    top: 20%;
+    right: 20px;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    background: none;
+    border: none;
+    cursor: pointer;
+    animation: floating 1s ease-in-out infinite alternate; /* Add floating animation */
+}
+
+@keyframes floating {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.open-icon {
+    display: inline-block;
+}
+
+.close-icon {
+    display: none;
 }
 
  table {
