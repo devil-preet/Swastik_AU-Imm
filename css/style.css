@@ -882,7 +882,9 @@ th {
 	color:#666;
 }
 .tab-title-menu {
+    /* margin-top: 15px; */
 	text-align:center;
+    z-index: 1000;
 }
 
 .tab-title-menu h2{
